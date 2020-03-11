@@ -1,6 +1,6 @@
  function Appear() {
      //获取随机数
-     var luckyNum = Math.round(Math.random() * 22);
+     var luckyNum = Math.round(Math.random() * 21);
      //alert(luckyNum);
      if (luckyNum == 0) {
          window.location.href = "./sol/sol1.html";
